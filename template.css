@@ -1,0 +1,188 @@
+html{
+    background-color:#2F9592;
+    color: #EFEFF9;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.index{
+    background-color: #006A6B;
+    padding: 20px 0 ;
+    text-align: center;
+    box-shadow: 10px 10px 10px #2b2b2b4a ;
+}
+
+.index h1{
+    margin: 0;
+}
+
+.index h3{
+    margin: 0;
+}
+
+hr{
+    width: 80vw;
+    max-width: 1080px;
+    border-color: #BEBCC9;
+    margin: 30px auto;
+}
+
+.pagina{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    width: 80vw;
+    max-width: 1080px;
+    background-color: #A6C2C0;
+    color:#2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #2b2b2b4a ;
+
+}
+
+.pagina .pagina_img img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #2b2b2b4a ;
+}
+
+.pagina .pagina_img{
+    text-align: center;
+}
+
+.navbar_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin:auto;
+    max-width: 1080px;
+}
+
+.navbar_info p{
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.titolone{
+    width: 80vw;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.titoli{
+    width: 80vw;
+    max-width: 1080px;
+    margin: auto;
+    transition: .5s;
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes appari{
+    from{
+        opacity:  0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.titoli table{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.titoli table tr td{
+    vertical-align: text-top;
+    padding: 10px 0;
+    border-top: 1px solid #BEBCC9;
+    border-bottom: 1px solid #BEBCC9;
+}
+
+.titoli table tr td:nth-child(odd){
+    font-weight: bold;
+}
+
+.pulsantiera{
+    position: absolute;
+    width: 100vw;
+    background-color: #006A6B;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+  
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.pulsantiera h2{
+    padding: 10px;
+    background-color: #F8F8FF;
+    color: #2b2b2b;
+    border-radius: 10px;
+    margin:20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.el_Cancellazioni{
+    display: none;
+    text-decoration:line-through;
+}
+
+.el_Persone.active{
+    color:red;
+}
+
+.el_Luoghi.active{
+    color: #CDF48B;
+    /* #75FF91; #CDF48B*/
+}
+
+.el_Cancellazioni.active{
+    display: inline;
+    color:#9000ff;
+}
+
+.el_Unclear.active{
+    text-decoration:underline wavy;
+    color:#002aff;
+}
+
+.el_Puntaggiature.active{
+    color:#1ad4a9;
+}
+
+.trascrizione{
+    margin-top: 140px;
+}
+
+

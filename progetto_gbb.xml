@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it" type="main">Diari di un partigiano ebreo</title>
+                <author ref="#EA">Emanuele Artom (1915-1944)</author>
+                <editor>G. Schwarz</editor>
+                <respStmt>
+                    <resp>a cura di: </resp>
+                    <name xml:id="schwarz">G. Schwarz</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Edizione Digitale -
+                    <date when="2008">2008</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto sotto la guida di: </resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica del file realizzata da: </resp>
+                    <name xml:id="SGuglielmi">Sara Guglielmi </name>
+                    <name xml:id="ABiliotti">Alissia Biliotti </name>
+                    <name xml:id="MBertolucci">Marco Bertolucci </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <name>Italia</name>
+                </address>
+                <availability>
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2023"> 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement>Milano</settlement>
+                        <repository role="library">Archivio del CDEC</repository>
+                        <idno>cc. 91 , b. 1, fasc. 9</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Emanuele Artom</author>
+                            <title>Diari di un partigiano ebreo</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>Fogli di carta</support>
+                                <extent>174 fogli</extent>
+                                <condition>Le pagine del manoscritto si presentano in gran parte leggibili. Sono presenti alcune cancellature, sostituzioni e aggiunte, alcune pagine sono danneggiate ai bordi, altre sono realizzate con carta molto sottile che ha condizionato negativamente la qualità delle scannerizzazioni</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="25">
+                                    <p>Le pagine hanno dalle 22 alle 35 righe</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>I documenti cartacei sono interamente prodotti a mano da Emanuele Artom</p>
+                        </handDesc>
+                        <typeDesc>
+                            <p>Il documento è interamente scritto in corsivo</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <summary>Questo manoscritto si compone di due parti.</summary>
+                        <origin notAfter="1944">
+                            <p>I diari vennero scritti da <persName>Emanuele Artom</persName>. 
+                      Si suppone che risalga al periodo tra il <date when="1940">1940</date> e il <date when="1944">1944</date>.
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>Il documento originale è stato donato da <persName>Amalia Artom</persName> e digitalizzato e distribuito da <orgName>CDEC</orgName>
+                            <pc>.</pc></p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w" />
+                <constitution type="composite" />
+                <derivation type="original" />
+                <domain type="domestic" />
+                <factuality type="fact" />
+                <interaction type="none" active="singular" passive="self" />
+                <preparedness type="none" />
+                <purpose type="express" degree="medium" />
+                <purpose type="inform" degree="medium" />
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <name>
+                        I diari sono stati scritti durante il periodo dell'attività partigiana dell'autore, in
+                        <country>Italia</country>.
+                    </name>
+                    <time>
+                        Dal 1940 al 1944.
+                    </time>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="it" xml:id="text-it" subtype="personal">
+        <body>
+            <ab type="pagina" n="116">
+                <pb n="116"/>
+                <lb n="1"/>
+                Passavano sul capo <del rend="overstrike">non</del> esplorando 
+                <lb n="2"/>
+                non vedessero <del rend="overstrike">questo</del> tale assembramento di
+                <lb n="3"/>
+                armati e feci chiamare <persName>Stele</persName><pc>,</pc> che li 
+                <lb n="4"/>
+                spedì al <placeName>monte “Brano”</placeName><pc>.</pc> Fu un momento 
+                <lb n="5"/>
+                molto difficile per me<pc>.</pc> Perfettamente 
+                <lb n="6"/>
+                ignorante di tattica<pc>,</pc> piuttosto indeciso per 
+                <lb n="7"/>
+                natura nei campi che so di non conoscere 
+                <lb n="8"/>
+                pauroso e intanto <del rend="overstrike"><gap quantity="2" unit="chars" reason="cancelled"/></del> preparato ad <seg type="syll">ademp<pc>=</pc></seg> 
+                <lb n="9"/>
+                <seg type="syll">iere</seg> ogni mio dovere<pc>,</pc> mi trovavo molto  
+                <lb n="10"/>
+                male<pc>.</pc> <del rend="overstrike">Risolto</del> <persName>Balestrieri</persName> poi mi disse 
+                <lb n="11"/>
+                che avevo preso l'unica decisione <seg type="syll">sen<pc>=</pc></seg> 
+                <lb n="12"/>
+                <seg type="syll">sata</seg><pc>.</pc> Poi passai alcune ore di crescente 
+                <lb n="13"/>
+                ansietà perché <persName><abbr>G<am>.</am></abbr></persName> non tornava da <placeName><settlement type="city">Barga</settlement></placeName><pc>;</pc>
+                <lb n="14"/>
+                in queste ore di tomento compresi come 
+                <lb n="15"/>
+                gli sono affezionato<pc>.</pc><del rend="overstrike"><gap quantity="5" unit="chars" reason="cancelled"/></del> Ricevo da  
+                <lb n="16"/>
+                casa una cartolina dove si parla 
+                <lb n="17"/> 
+                del dottor <persName>Berluò</persName><pc>.</pc> Non riesco a capirla 
+                <lb n="18"/>
+                completamente<pc>.</pc> 
+                <lb n="19"/>
+                I <persName ref="gruppo-politico">Tedeschi </persName><del rend="overstrike">hanno</del> e i <persName ref="gruppo-politico">fascisti</persName> hanno <seg type="syll">comp<pc>=</pc></seg>    
+                <lb n="20"/>
+                <seg type="syll">iuto</seg> una grande manovra a tenaglia<pc>.</pc> 
+                <lb n="21"/>
+                Hanno risalito la <placeName>valle di Bagnolo</placeName>
+                <lb n="22"/>
+                verso il <placeName>Villar</placeName> e il <placeName>Villaretto</placeName><pc>,</pc> hanno
+            </ab>
+            <ab type="pagina" n="117">
+                <pb n="117"/>
+                <lb n="1"/>
+                risalito quella di <placeName><settlement type="town">Paesana</settlement></placeName> verso <placeName><settlement type="town"><seg type="syll">Aglia</seg></settlement></placeName><pc>=</pc>
+                <lb n="2"/>
+                <placeName><settlement type="town"><seg type="syll">sco</seg></settlement></placeName> e forse <del rend="overstrike">le</del> i due reparti si sono anche
+                <lb n="3"/>
+                congiunti<pc>.</pc> <del rend="overstrike">intanto</del><del rend="overstrike">una</del> Per fortuna hanno
+                <lb n="4"/>
+                commesso un errore gravissimo<pc>,</pc> cioè non
+                <lb n="5"/>
+                hanno fatto contemporaneamente la battuta
+                <lb n="6"/>
+                di <placeName><settlement type="city">Barga</settlement></placeName><pc>,</pc> se no saremmo stati tutti presi<pc>.</pc> Forse
+                <lb n="7"/>
+                non l'hanno potuta fare per mancanza
+                <lb n="8"/>
+                di uomini<pc>.</pc> Le notizie e gli indizi sono
+                <lb n="9"/>
+                disastrosi<pc>.</pc> Dalla parte di <placeName><settlement type="town">Bagnolo</settlement></placeName> ieri si
+                <lb n="10"/>
+                vedeva una gran nuvola di fumo<pc>,</pc> che
+                <lb n="11"/>
+                si alzava tetra <del rend="overstrike">e nera</del> sotto la luna<pc>.</pc>
+                <lb n="12"/>
+                Un triste odore di bruciato fino a 
+                <lb n="13"/>
+                <placeName><settlement type="city">Barga</settlement></placeName><pc>.</pc> Pensavo<pc>,</pc> guardando da quella
+                <lb n="14"/>
+                a tutto il dolore che nascondeva
+                <lb n="15"/>
+                la <del rend="overstrike">nera</del> aligina<pc>,</pc> anche più nera in contrasto
+                <lb n="16"/>
+                con candore della neve<pc>.</pc> Quando all'altro
+                <lb n="17"/>
+                lato<pc>,</pc> si dice che <persName>Carnera </persName>sia fuggito<pc>,</pc>
+                <lb n="18"/>
+                che <persName>Zanna</persName> sia morto<pc>,</pc> che sulla piazza di
+                <lb n="19"/>
+                <placeName><settlement type="town">Paesana</settlement></placeName> ci siano parecchi cadaveri di
+                <lb n="20"/>
+                fucilati<pc>.</pc> <persName>Zanna</persName> era un <del rend="overstrike">perfetto</del>
+                <del rend="overstrike"><seg type="syll">avven<pc>=</pc></seg></del>
+                <lb n="21"/>
+                <del rend="overstrike"><seg type="syll">turier</seg></del> guerriero di ventura<pc>,</pc> più che un
+                <lb n="22"/>
+                soldato<pc>.</pc> Lo vidi il giorno dopo che aveva
+            </ab>
+            <ab type="pagina" n="118">
+                <pb n="118"/>
+                <lb n="1"/>
+                ucciso un fascista scherzare allegramente<pc>,</pc>
+                <lb n="2"/>
+                lo vidi percuotere una cavalla sul muso
+                <lb n="3"/>
+                fino a farle saltare gli occhi dall'orbita 
+                <lb n="4"/>
+                e mi fece orrore<pc>,</pc> ma pochi giorni dopo <del rend="overstrike"><gap reason="illegible" quantity="3" unit="character"/></del>
+                <lb n="5"/>
+                <del rend="overstrike"><gap reason="illegible" quantity="1" unit="character"/></del> perse un dito in una sparatoria<pc>;</pc> <persName><abbr type="initial">G<am>.</am></abbr></persName> gli
+                <lb n="6"/> 
+                medicava la mano<pc>:</pc> io <unclear reason="illegible">ass</unclear>istevo all'<seg type="syll">o</seg><pc>=</pc>
+                <lb n="7"/>
+                <seg type="syll">perazione</seg> e mi sentivo i sudori alla
+                <lb n="8"/>
+                fronte<pc>,</pc> gli occhi mi si annebbiavano<pc>,</pc>
+                <lb n="9"/>
+                <del rend="overstrike">ma</del> dovetti <del rend="overstrike">usci</del> uscire dalla camera<pc>,</pc> ma 
+                <lb n="10"/>
+                <persName>Zanna</persName> <del rend="overstrike">non dav</del> sembrava che il dito non  
+                <lb n="11"/>
+                fosse suo<pc>.</pc> Allora non mi fece più orrore<pc>.</pc>
+                <lb n="12"/>
+                Aveva cento volte scampato la morte<pc>.</pc>
+                <lb n="13"/>
+                Paracadutista inglese catturato<pc>,</pc> la <del rend="overstrike">notte</del>
+                <lb n="14"/>
+                <del rend="overstrike">prima o</del> mattina del <date>26 luglio</date> doveva
+                <lb n="15"/>
+                venire fucilato a <placeName><settlement type="city">Torino</settlement></placeName><pc>,</pc> ma la folla 
+                <lb n="16"/>
+                lo liberò poche ore prima 
+                <lb n="17"/>
+                dell'esecuzione<pc>.</pc> Non aveva un viso
+                <lb n="18"/>
+                feroce<pc>,</pc> ma impassibile<pc>,</pc> e deciso<pc>.</pc>  Mi
+                <lb n="19"/>
+                ricordo di una volta che si parlò  
+                <lb n="20"/>
+                di una ritirata<pc>;</pc> diceva<pc>:</pc> Scappare<pc>?</pc>
+                <lb n="21"/>
+                Ma che partigiani siamo<pc>?</pc> Un'altra elogiava 
+                <lb n="22"/>
+                il suo fucile mitragliatore<pc>:</pc> prova a 
+            </ab>
+            <ab type="pagina" n="119">
+                <pb n="119"/>
+                <lb n="1"/>
+                <del rend="overstrike">spara</del> tirare<pc>:</pc> tin<pc>,</pc> tin<pc>,</pc> tin<pc>,</pc> una musica<pc>,</pc> come
+                <lb n="2"/> 
+                si fa a non innamorarsene<pc>?</pc> comincia
+                <lb n="3"/>
+                a sparare e <del rend="overstrike"> ti piace tanto<pc>.</pc> </del> vedrai come 
+                <lb n="4"/>
+                ti piace<pc>.</pc> <del rend="overstrike">Fuggì a </del> Nacque nell'<placeName><country type="nation">Equador</country></placeName><pc>,</pc> rubò
+                <lb n="5"/>
+                al suo <del rend="overstrike">zio </del> patrigno 100'000 <del rend="overstrike">lire x</del> a <del rend="overstrike">sedici </del> diciotto
+                <lb n="6"/>
+                anni e venne a studiare a <placeName><settlement type="city">Genova</settlement></placeName><pc>.</pc> S'iscrisse
+                <lb n="7"/>
+                in legge<pc>.</pc> Quando gli mandarono i denari<pc>,</pc>
+                <lb n="8"/>
+                <del rend="overstrike">si arruolò nella legione straniera in <placeName><region type="continent">Africa</region></placeName><pc>,</pc></del>
+                <lb n="9"/>
+                <del rend="overstrike">poi combattè in <placeName><country type="nation">Spagna</country></placeName><pc>.</pc></del>
+                <lb n="10"/>
+                lavorò come giornalista in <placeName><country type="nation">Francia</country></placeName><pc>,</pc> poi
+                <lb n="11"/>
+                in <placeName><country type="nation">Spagna</country></placeName> durante la guerra civile fece
+                <lb n="12"/>
+                contrabbando di armi<pc>,</pc> poi nella legione
+                <lb n="13"/>
+                straniera in <placeName type="continent">Africa</placeName><pc>,</pc> poi paracadutista <del rend="overstrike">ingl</del> per
+                <lb n="14"/>
+                l'<placeName><country type="nation">Inghilterra</country></placeName><pc>.</pc> Ieri sera<pc>,</pc> la sera della
+                <lb n="15"/>
+                sconfitta<pc>,</pc> sentimmo la radio inglese<pc>:</pc> <del rend="ovestrike">hanno</del>
+                <lb n="16"/>
+                i <persName ref="gruppo-politico">Russi</persName> hanno sfondato in <placeName><country type="nation">Ucraina</country></placeName> e
+                <lb n="17"/>
+                marciano su <placeName><settlement type="city">Scitomir</settlement></placeName><pc>.</pc> Una breccia
+                <lb n="18"/>
+                di 300 chilometri<pc>.</pc> Pochi <unclear reason="illegible">cannoni</unclear> di
+                <lb n="19"/>
+                armati hanno <gap quantity="2" unit="chars" reason="cancelled"/> distrutto il lavoro
+                <lb n="20"/>
+                delle bande di <placeName><settlement type="city">Barga</settlement></placeName><pc>,</pc> che forse non
+                <lb n="21"/>
+                torneranno mai più efficienti e intanto
+                <lb n="22"/>
+                l'offensiva di <persName>Stalin</persName> frantumava la
+            </ab>
+            <ab type="pagina" n="120">
+                <pb n="120"/>
+                <lb n="1"/>
+                resistenza di <num type="cardinal">23</num> divisioni tedesche<pc>.</pc>
+                <lb n="2"/>
+                Ci pareva di essere forti<pc>,</pc> per quasi 
+                <lb n="3"/>
+                due mesi<pc>,</pc> dal colpo di <placeName><settlement type="town">Crissolo</settlement></placeName> a quello 
+                <lb n="4"/>
+                di <placeName><settlement type="town">Cavour</settlement></placeName><pc>,</pc> si avevano riportato molti piccoli
+                <lb n="5"/>
+                successi<pc>.</pc> Se pensiamo che le nostre forze si sono  
+                <lb n="6"/>
+                così disciolte e disperse<pc>,</pc> come <del rend="overstroke">sabbia</del> acqua 
+                <lb n="7"/>
+                versata sulla sabbia<pc>;</pc><del rend="overstrike">dobbiamo ric</del> mi pare
+                <lb n="8"/>
+                che la somma di energie della <placeName><country type="nation">Germania</country></placeName><pc>;</pc>
+                <lb n="9"/>
+                della <placeName><country type="nation">Russia</country></placeName> e degli Anglosassoni sia <seg type="syll">astro</seg><pc>=</pc>
+                <lb n="10"/>
+                <seg type="syll">nomicamente</seg> immisurabile<pc>:</pc> confrontare 
+                <lb n="11"/> 
+                noi<pc>,</pc> che pure avevamo armi<pc>,</pc> uomini<pc>,</pc> <seg type="syll">ma</seg><pc>=</pc>
+                <lb n="12"/>
+                <seg type="syll">gazzini</seg> e comandi con un esercito è come
+                <lb n="13"/>
+                <del rend="overstroke">misura</del> confrontare la lunghezza di una
+                <lb n="14"/>
+                strada con la distanza fra la terra e
+                <lb n="15"/>
+                il sole<pc>.</pc>
+                <lb n="16"/>
+                La debacle è anche più completa per
+                <lb n="17"/>
+                il gravissimo errore di <persName>Barbato</persName><pc>,</pc> che
+                <lb n="18"/>
+                avevamo supplicato di non fare<pc>:</pc><seg type="syll">tra</seg><pc>=</pc>
+                <lb n="19"/>
+                <seg type="syll">sferirsi</seg> a <measure>tredici chilometri</measure> da
+                <lb n="20"/>
+                <placeName><settlement type="town">Barga</settlement></placeName><pc>.</pc> In una località <del rend="overstrike">quasi</del> ignota 
+                <lb n="21"/> 
+                a quasi tutti<pc>;</pc><unclear reason="ink blot">non si è senza comandante e</unclear>
+                <lb n="22"/>
+                <unclear reason="ink blot">senza commissario</unclear><pc>.</pc> Nel più importante
+            </ab>
+            <ab type="pagina" n="121">
+                <pb n="121"/>
+                <lb n="1"/>
+                attivismo non immagina forse la rovina
+                <lb n="2"/>
+                che ci <del rend="overstrike">minaccia</del> ha colpito<pc>.</pc> Intanto la 
+                <lb n="3"/>
+                vita randagia continua<pc>.</pc> <persName><abbr>G<am>.</am></abbr></persName> e io <seg type="syll">pensava</seg><pc>=</pc>
+                <lb n="4"/>
+                <seg type="syll">mo</seg> di trascorrere il Capodanno o ad 
+                <lb n="5"/>
+                <placeName><settlement type="town">Agliasco</settlement></placeName> o <placeName><settlement type="town"><abbr>T<am>.</am></abbr> Pellice</settlement></placeName><pc>:</pc> <placeName><settlement type="town">Agliasco</settlement></placeName> è <seg type="syll">di</seg><pc>=</pc>
+                <lb n="6"/>
+                <seg type="syll">strutta</seg><pc>,</pc> le strade per <placeName><settlement type="town"><abbr>T<am>.</am></abbr> <abbr>P<am>.</am></abbr></settlement></placeName> sono bloccate 
+                <lb n="7"/>
+                e non sappiamo dove andremo<pc>.</pc> <seg type="syll">Dor</seg><pc>=</pc>
+                <lb n="8"/>
+                <seg type="syll">miremo</seg> in qualche fienile<pc>.</pc> <del rend="overstrike">Avevamo</del>
+                <lb n="9"/>
+                <del rend="overstrike">ancora la speranza</del> Abbiamo ancora
+                <lb n="10"/>
+                la fortuna di essere insieme<pc>.</pc> Ricordo
+                <lb n="11"/>
+                lo squallido Capodanno <del rend="overstrike">dell'anno</del>
+                <lb n="12"/>
+                scorso a <placeName><settlement type="town">Moriondo</settlement></placeName><pc>:</pc> pareva di non poter 
+                <lb n="13"/>
+                andare più giù<pc>,</pc> e invece oggi stare in una 
+                <lb n="14"/>
+                casa nostra<pc>,</pc> in famiglia<pc>,</pc> parrebbe una 
+                <lb n="15"/>
+                fortuna irraggiungibile<pc>,</pc> ma <persName><abbr>G<am>.</am></abbr></persName> dice che le cose 
+                <lb n="16"/>
+                possono ancora peggiorare molto<pc>.</pc>
+                <lb n="17"/>
+                Piccola notizia<pc>.</pc> Una spia ha chiesto dove è 
+                <lb n="18"/>
+                l'infermeria<pc>.</pc> Pare che i <persName><abbr>Ted</abbr></persName> siano stati
+                <lb n="19"/>
+                condotti da due che<pc>,</pc> fermati da <persName>Zanna</persName><pc>,</pc>
+                <lb n="20"/>
+                furono condotti alla base di <persName>Carnera</persName><pc>,</pc>
+                <lb n="21"/>
+                e interrogati brutalmente con percosse<pc>,</pc> 
+                <lb n="22"/>
+                davanti al commissario<pc>.</pc> Lì adottano
+            </ab>
+        </body>
+    </text>
+</TEI>
